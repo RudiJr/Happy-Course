@@ -7,11 +7,17 @@
     transition: transform 100ms linear;
     font-size: 20px;
     color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Fira Code', sans-serif;
 }
 
 .button:hover {
     transform: scale(1.08);
 }
 
+
+.banner .button {
+    box-shadow: 5px 5px 0 #000000;
+}
 
 
