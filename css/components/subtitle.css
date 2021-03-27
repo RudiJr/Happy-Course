@@ -1,6 +1,6 @@
 .subtitle {
     color: #FFFFFF;
     font-size: 30px;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: inherit;
     text-shadow: 4px 4px 0px #000000;
 }
