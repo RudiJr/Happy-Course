@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
     <title>Rudi Júnior | Portfolio</title>
 </head>
 
@@ -114,15 +116,67 @@
 
     <section class="main-section -bgPurple">
         <h2 class="main-title -second">Sobre</h2>
-        <p class="main-description">consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis
-            ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi
-            scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem
-            dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae
-            tempus quam pellentesque nec nam aliquam et tortor consequat.</p>
 
-            <button class="button-arrow -right"><span class="content">Voltar</span></button>
-            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Voltar</span></button>
+
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-locaweb.png" alt="Logo Locaweb">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-caelum.png" alt="Logo Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-getninjas.png" alt="Logo GetNinjas">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-caelum.png" alt="Logo Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-impulso.png" alt="Logo Impulso">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-collabcode.png" alt="Logo CollabCode">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <button class="button-arrow -right"><span class="content">Avançar</span></button>
+        </section>
+
+        <p class="main-description">consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus
+            vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra 
+            accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel 
+            pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida 
+            neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam et tortor consequat.</p>
+
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 
 </body>
 
