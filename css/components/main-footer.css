@@ -1,0 +1,15 @@
+.main-footer {
+    background-color: #000000;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.footer-icons {
+   margin-right: 40px;
+   padding-top: 28px;
+   padding-bottom: 28px;
+}
