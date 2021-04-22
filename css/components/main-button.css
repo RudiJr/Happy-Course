@@ -15,9 +15,12 @@
     transform: scale(1.08);
 }
 
-
 .main-banner .main-button {
     box-shadow: 5px 5px 0 #000000;
+}
+
+.main-button.-full {
+    width: 100%;
 }
 
 
