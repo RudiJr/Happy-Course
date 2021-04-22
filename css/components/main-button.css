@@ -9,6 +9,7 @@
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Fira Code', sans-serif;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -21,6 +22,10 @@
 
 .main-button.-full {
     width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
 
 
